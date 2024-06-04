@@ -3,12 +3,12 @@ languageCode: en-us
 build:
   writeStats: true
 params:
-  title: aafu theme
-  author: Darshan Baral
+  title: Kush Sharma
+  author: Kush Sharma
   description: Website title
   copyright: >-
     powered by [hugo](https://gohugo.io/) & deployed on
-    [Cloudflare](https://www.cloudflare.com/)
+    [GitHub Pages](https://pages.github.com/)
   theme:
     mainTheme: dark
     showAttribute: true
@@ -24,9 +24,9 @@ params:
               <link rel="shortcut icon" href="favicon.ico">
 
   profile:
-    name: "First Last, Abbr."
-    tagline: Title
-    location: "City Name, ST"
+    name: "Kush Sharma"
+    tagline: Turing Scholar @ UT Austin
+    location: "Austin, TX"
     photo: profile.jpg
   social:
     title: Links

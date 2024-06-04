@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>https://aafu.pages.dev/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://aafu.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Css</title>
-      <link>https://aafu.pages.dev/tags/css/</link>
+      <link>http://localhost:1313/tags/css/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aafu.pages.dev/tags/css/</guid>
+      <guid>http://localhost:1313/tags/css/</guid>
       <description></description>
     </item>
     <item>
       <title>Html</title>
-      <link>https://aafu.pages.dev/tags/html/</link>
+      <link>http://localhost:1313/tags/html/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aafu.pages.dev/tags/html/</guid>
+      <guid>http://localhost:1313/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>https://aafu.pages.dev/tags/markdown/</link>
+      <link>http://localhost:1313/tags/markdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aafu.pages.dev/tags/markdown/</guid>
+      <guid>http://localhost:1313/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Themes</title>
-      <link>https://aafu.pages.dev/tags/themes/</link>
+      <link>http://localhost:1313/tags/themes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aafu.pages.dev/tags/themes/</guid>
+      <guid>http://localhost:1313/tags/themes/</guid>
       <description></description>
     </item>
     <item>
       <title>Laoreet</title>
-      <link>https://aafu.pages.dev/tags/laoreet/</link>
+      <link>http://localhost:1313/tags/laoreet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aafu.pages.dev/tags/laoreet/</guid>
+      <guid>http://localhost:1313/tags/laoreet/</guid>
       <description></description>
     </item>
     <item>
       <title>Mollis Urna</title>
-      <link>https://aafu.pages.dev/tags/mollis-urna/</link>
+      <link>http://localhost:1313/tags/mollis-urna/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aafu.pages.dev/tags/mollis-urna/</guid>
+      <guid>http://localhost:1313/tags/mollis-urna/</guid>
       <description></description>
     </item>
     <item>
       <title>Notes</title>
-      <link>https://aafu.pages.dev/tags/notes/</link>
+      <link>http://localhost:1313/tags/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://aafu.pages.dev/tags/notes/</guid>
+      <guid>http://localhost:1313/tags/notes/</guid>
       <description></description>
     </item>
   </channel>
