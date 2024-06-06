@@ -10,15 +10,15 @@ const expandAccordion = (elem) => {
       elem.style.maxHeight = null;
     });
     let activePanel = elem.parentElement.nextElementSibling;
-    if (
-      activePanel.id != "skill-panel" &&
-      document.querySelector("#skill-panel")
-    ) {
-      let skillBars = Array.from(document.querySelectorAll("#skill-percent"));
-      skillBars.forEach((elem) => {
-        elem.style.width = "0";
-      });
-    }
+    // if (
+    //   activePanel.id != "skill-panel" &&
+    //   document.querySelector("#skill-panel")
+    // ) {
+    //   let skillBars = Array.from(document.querySelectorAll("#skill-percent"));
+    //   skillBars.forEach((elem) => {
+    //     elem.style.width = "0";
+    //   });
+    // }
     activePanel.style.maxHeight = activePanel.scrollHeight + "px";
   }
 };

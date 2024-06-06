@@ -65,18 +65,15 @@ params:
     title: Experiences
     icon: fas fa-briefcase
     list:
-      - position: Job Title
-        dates: 2019 - *Present*
-        company: Company Name
+      - position: Machine Learning Research Intern
+        dates: May 2023 - August 2023
+        company: The University of Texas at Dallas
         details: |1-
-          - Printed from desktop. Sent [emails](#).
-              - Called people *using* telephone.
-          - Drank water from office cooler.
-          - Ate donuts on people's birthdays.
-      - position: Job Title
-        dates: 2018 - 2019
-        url: "#"
-        company: Company Name
+          - Worked in a team of 5 on the design and analysis of active learning algorithms for open-set annotation
+          - Performed a comprehensive literature review on active learning methods such as BADGE and HUDS
+          - Implemented the random and uncertainty sampling methods on the CIFAR-10 and CIFAR-100 datasets
+          - Trained convolutional neural network architectures like LeNet and ResNet using stochastic gradient descent
+          - Developed a Matplotlib plotting script to compare accuracy, precision, recall, computational efficiency, and speed
   # publication:
   #   title: Publications
   #   icon: fas fa-book
@@ -117,33 +114,56 @@ params:
     title: Projects
     icon: fas fa-project-diagram
     list:
-      - title: Project 1
-        url: "#"
-        description: Description of the project
-      - title: Project 2
-        url: "#"
-        description: Description of the project
-      - title: Project 3
-        url: "#"
-        description: Description of the project
-      - title: Project 4
-        url: "#"
-        description: Description of the project
+      - title: Meal Planner App – Flavor Finder
+        url: "https://github.com/kushsharma924/meal-planner-app"
+        description: >-
+          1. -> Developed a full-stack recipe finder web app using a REST API and displaying results in a single-page application
+
+          2. -> Designed a streamlined React frontend using navbars, drop downs, recipe cards, and other custom components
+
+          3. -> Continuously deployed application to over 50 users utilizing AWS Amplify
+
+          4. -> Acheived a user satsifaction rate of 91% on accuracy of recipe results, with an average user rating of 4.6/5.0
+      - title: Active Learning Algorithm – Dynamic Sampling
+        url: "https://https://github.com/kushSharma924/dynamic-sampling"
+        description: >-
+          1. -> Designed a novel active learning algorithm combining uncertainty and diversity-based methods
+
+          2. -> Reduced time needed to train model by 21% when compared to using solely uncertainty or diversity sampling
+
+          3. -> Implemented a convolutional neural network to classify handwritten digits on the MNIST dataset
+
+          4. -> Acheived a final accuracy of 98.1% after final hyperparamter tuning
+      - title: UIL CS Contest Guide – cs240.org
+        url: "https://github.com/cs240/cs240.org"
+        description: >-
+          1. -> Created detailed tutorials in Markdown to help users prepare for the UIL Computer Science Contest
+
+          2. -> Created an easy curriculum for users to follow by modularizing tutorials into 4 sections
+
+          3. -> Published tutorials on a webpage using a VueJS frontend and MongoDB for the backend
+
+          4. -> Deployed webpage using AWS Amplify to over 200 users
+      - title: Swift Mobile App – Mynance
+        url: "https://github.com/kushSharma924/mynance"
+        description: >-
+          1. -> Developed a Swift-based mobile application to track financial transactions and improve money management
+
+          2. -> Designed UI using Interface Builder AutoLayout constraints for graceful orientation handling
+
+          3. -> Utilized Swift’s UserDefaults Database to persistently store user’s financial data to the disk
+
+          4. -> Utilized table views, segues, and MVC architecture to provide a user-friendly interface and project structure
   skill:
     title: Skills
-    panelId: skill-panel
     icon: fas fa-cogs
     list:
-      - skill: "Skill 1, Skill 2"
-        skillrating: 90
-      - skill: Skill 3
-        skillrating: 80
-      - skill: Skill 4
-        skillrating: 50
+      - skill: Programming Languages -> Java, C/C++, Python, Swift, JavaScript, HTML/CSS
+      - skill: Libraries & Frameworks -> ReactJS, NodeJS, VueJS, PyTorch, NumPy, Pandas, Matplotlib, STL
+      - skill: Developer Tools -> AWS (Amplify), MongoDB, Xcode, Markdown, Git/GitHub
   hobby:
     title: Awards
     icon: fas fa-award
     list:
-      - hobby: Cooking
-      - hobby: Hiking
-      - hobby: Baking
+      - hobby: Computer Science Awards -> USA Computing Olympiad Silver Division Qualifer, Texas UIL CS State Qualifier
+      - hobby: Other Awards -> AIME Qualifier, AMC 12A Distinction (Top 5%), National Merit Scholarship Finalist (Top 1%)
