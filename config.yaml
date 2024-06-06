@@ -29,12 +29,15 @@ params:
   social:
     title: Links
     list:
-      - icon: fab fa-linkedin-in
+      - icon: fab fa-linkedin
         url: "https://linkedin.com/in/ks924"
         title: LinkedIn
       - icon: fab fa-github
         url: "https://github.com/kushsharma924"
         title: GitHub
+      - icon: fas fa-file-alt
+        url: "https://drive.google.com/file/d/16EV0GLYJ_VZHz_rOGmVIT1pdJ8y8aNlE/view?usp=sharing"
+        title: Resume
   showInAccordion:
     - item: aboutme
       # expand: true
@@ -47,24 +50,17 @@ params:
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: This is a demo of the `aafu` theme. It has `light` and `dark` theme.
+    description: Hi, I'm Kush, a Turing Scholar at The University of Texas at Austin also pursuing a double major in Math. I'm interested in Theory, Machine Learning, and the intersection between Software and Finance. Outside of CS, I enjoy biking, reading, traveling, and trying out new food. Feel free to reach me at `kush.sharma@utexas.edu`.
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
-      - degree: Ph.D. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: M.S. in Subject
-        college: University of State-City
-        dates: 2013 - 2018
-        thesis_title: "Effect of humans on other humans: a study of human behavior."
-        thesis_url: "#"
-      - degree: B.S. in Subject
-        college: University of State-City
-        dates: 2004 - 2009
+      - degree: B.S. in Computer Science, Turing Scholars Honors
+        college: The University of Texas at Austin
+        dates: August 2024 - May 2026
+      - degree: B.S. in Mathematics
+        college: The University of Texas at Austin
+        dates: August 2024 - May 2026
   experience:
     title: Experiences
     icon: fas fa-briefcase
