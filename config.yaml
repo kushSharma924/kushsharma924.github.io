@@ -14,15 +14,15 @@ params:
     showAttribute: false
     singlePage: true
   # TODO
-  favicons:
-    use: false
-    metas: |2-
-              <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-              <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-              <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-              <link rel="manifest" href="site.webmanifest">
-              <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
-              <link rel="shortcut icon" href="favicon.ico">
+  # favicons:
+  #   use: false
+  #   metas: |2-
+  #             <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  #             <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  #             <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  #             <link rel="manifest" href="site.webmanifest">
+  #             <link rel="mask-icon" href="safari-pinned-tab.svg" color="#252627">
+  #             <link rel="shortcut icon" href="favicon.ico">
   profile:
     name: "Kush Sharma"
     tagline: 
@@ -39,7 +39,7 @@ params:
         title: GitHub
   showInAccordion:
     - item: aboutme
-      expand: true
+      # expand: true
     - item: education
     - item: experience
     # - item: publication
@@ -147,8 +147,8 @@ params:
       - skill: Skill 4
         skillrating: 50
   hobby:
-    title: Hobbies
-    icon: fas fa-gamepad
+    title: Awards
+    icon: fas fa-award
     list:
       - hobby: Cooking
       - hobby: Hiking
