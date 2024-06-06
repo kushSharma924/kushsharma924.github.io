@@ -5,11 +5,11 @@
 <meta name="theme-color" content="" />
 <meta charset="utf-8" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-<meta name="description" content="Website title" />
+<meta name="description" content="" />
 <meta name="author" content="Kush Sharma" />
 <meta name="generator" content="aafu theme by Darshan in Hugo 0.126.3" />
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">        <link rel="manifest" href="/site.webmanifest">        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">        <link rel="shortcut icon" href="/favicon.ico">
+
   <link
     rel="stylesheet"
     href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
@@ -76,38 +76,6 @@
 </head>
 <body class="h-screen p-2 m-auto max-w-4xl flex flex-col">
     
-    <header
-  class="nav flex flex-row row py-2 mb-6 w-full border-b border-gray-300 dark:border-gray-700 justify-between"
->
-  <div>
-    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="http://localhost:1313/">Home</a>    
-    <a class="no-underline p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-800" href="/blog">Blog</a>
-  </div>
-  
-  <i
-    class="fas fa-sun theme-toggle text-blue-500 hover:text-blue-700 dark:text-yellow-300 dark:hover:text-yellow-500 cursor-pointer text-lg mr-9 sm:mr-0"
-    onclick="lightDark(this)"
-  ></i>
-</header>
-
-<script>
-  const lightDark = (el) => {
-    let html = document.querySelector("html");
-    if (html.classList.contains("dark")) {
-      html.classList.remove("dark");
-      el.classList.add("fa-moon");
-      el.classList.remove("fa-sun");
-      window.localStorage.setItem("theme", "light");
-    } else {
-      html.classList.add("dark");
-      el.classList.add("fa-sun");
-      el.classList.remove("fa-moon");
-      window.localStorage.setItem("theme", "dark");
-    }
-  };
-</script>
-
-    
     <main class="grow">
 <div class="grid grid-cols-1 md:grid-cols-5 gap-2 sm py-2">
   <div class="col-span-2">
@@ -124,56 +92,26 @@
 </div>
         <div class="p-2 text-center">
           <h1 class="mb-0">Kush Sharma</h1>
-<h2 class="mb-0">Turing Scholar @ UT Austin</h2>
-<h3 class="mb-4">Austin, TX</h3>
+<h2 class="mb-0"></h2>
+<h3 class="mb-4">Turing Scholar at UT Austin</h3>
 <div class="mb-4 flex flex-wrap justify-center">
   
   <div class="mx-2">
-    <a class="text-2xl" href="#">
+    <a class="text-2xl" href="https://linkedin.com/in/ks924">
       <i class="mt-1 fab fa-linkedin-in"></i>
     </a>
   </div>
   
   <div class="mx-2">
-    <a class="text-2xl" href="#">
-      <i class="mt-1 fab fa-stack-overflow"></i>
-    </a>
-  </div>
-  
-  <div class="mx-2">
-    <a class="text-2xl" href="#">
+    <a class="text-2xl" href="https://github.com/kushsharma924">
       <i class="mt-1 fab fa-github"></i>
-    </a>
-  </div>
-  
-  <div class="mx-2">
-    <a class="text-2xl" href="#">
-      <i class="mt-1 fab fa-twitter"></i>
-    </a>
-  </div>
-  
-  <div class="mx-2">
-    <a class="text-2xl" href="#">
-      <i class="mt-1 fab fa-orcid"></i>
-    </a>
-  </div>
-  
-  <div class="mx-2">
-    <a class="text-2xl" href="#">
-      <i class="mt-1 ai ai-google-scholar"></i>
-    </a>
-  </div>
-  
-  <div class="mx-2">
-    <a class="text-2xl" href="#">
-      <i class="mt-1 fab fa-researchgate"></i>
     </a>
   </div>
   
 </div>
  <footer class="text-sm text-center border-t border-gray-300 dark:border-gray-700  pt-2 ">
-  <p class="markdownify">powered by <a href="https://gohugo.io/">hugo</a> &amp; deployed on <a href="https://pages.github.com/">GitHub Pages</a></p>
-  <p >
+  <p class="markdownify">Powered by <a href="https://gohugo.io/">Hugo</a> &amp; deployed on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+  <p style="font-size:0px;">
     <i>
       <a href="https://github.com/darshanbaral/aafu">
         aafu
@@ -211,56 +149,6 @@
         <div class=""><p class="markdownify">
   This is a demo of the <code>aafu</code> theme. It has <code>light</code> and <code>dark</code> theme.
 </p>
-</div>
-      </div>
-    </div>
-    
-    <div class="px-2">
-      <h2 class="my-0 accordion">
-        
-        <p
-          class="hover:bg-gray-300 rounded dark:hover:bg-darker m-0 p-2"
-          onclick="expandAccordion(this)"
-          style="cursor: pointer"
-        >
-          <i class="fas fa-briefcase"></i>
-          Experiences</p>
-      </h2>
-
-      <div
-        class="panel overflow-hidden px-2 ml-2"
-        
-      >
-        <div class="">
-<h4 style="text-decoration: underline;">Job Title</h4>
-<p class="mb-0">
-  2019 - <em>Present</em> &middot;  Company Name 
-</p>
-
-<div class="prose prose-stone dark:prose-invert max-w-none">
-<ul>
-<li>Printed from desktop. Sent <a href="#">emails</a>.
-<ul>
-<li>Called people <em>using</em> telephone.</li>
-</ul>
-</li>
-<li>Drank water from office cooler.</li>
-<li>Ate donuts on people&rsquo;s birthdays.</li>
-</ul>
-
-</div>
-
-
-
-<h4 style="text-decoration: underline;">Job Title</h4>
-<p >
-  2018 - 2019 &middot; 
-  <a href="#">Company Name</a>
-  
-</p>
-
-
-
 </div>
       </div>
     </div>
@@ -323,8 +211,8 @@
           onclick="expandAccordion(this)"
           style="cursor: pointer"
         >
-          <i class="fas fa-book"></i>
-          Publications</p>
+          <i class="fas fa-briefcase"></i>
+          Experiences</p>
       </h2>
 
       <div
@@ -332,42 +220,31 @@
         
       >
         <div class="">
-
-
-<h4 style="text-decoration: underline;">Journal Articles</h4><p class="foo indent-8">2018.
-
-
-<a href="#">
-  <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
-</a>
-
-
-F Last, F Second, P secondary.
-Journal of Field 52 (16), 9033-9044.
-</p>
-<p class="foo indent-8">2018.
-
-
-<a href="#">
-  <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
-</a>
-
-
-F Last, F Second, P secondary.
-Journal of Field 52 (16), 9033-9044.
+<h4 style="text-decoration: underline;">Job Title</h4>
+<p class="mb-0">
+  2019 - <em>Present</em> &middot;  Company Name 
 </p>
 
+<div class="prose prose-stone dark:prose-invert max-w-none">
+<ul>
+<li>Printed from desktop. Sent <a href="#">emails</a>.
+<ul>
+<li>Called people <em>using</em> telephone.</li>
+</ul>
+</li>
+<li>Drank water from office cooler.</li>
+<li>Ate donuts on people&rsquo;s birthdays.</li>
+</ul>
 
-<h4 style="text-decoration: underline;">Proceedings</h4><p class="foo indent-8">2018.
+</div>
 
 
-<a href="#">
-  <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
-</a>
 
-
-F Last, F Second, P secondary.
-Journal of Field 52 (16), 9033-9044.
+<h4 style="text-decoration: underline;">Job Title</h4>
+<p >
+  2018 - 2019 &middot; 
+  <a href="#">Company Name</a>
+  
 </p>
 
 
