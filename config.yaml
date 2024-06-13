@@ -121,45 +121,42 @@ params:
 
           2. -> Designed a streamlined React frontend using navbars, drop downs, recipe cards, and other custom components
 
-          3. -> Continuously deployed application to over 50 users utilizing AWS Amplify
+          3. -> Continuously deployed application to over 50 users utilizing AWS Amplify with over 1000 sitewide searches
 
           4. -> Acheived a user satsifaction rate of 91% on accuracy of recipe results, with an average user rating of 4.6/5.0
-      - title: Active Learning Algorithm – Dynamic Sampling
-        url: "https://github.com/kushSharma924/dynamic-sampling"
-        description: >-
-          1. -> Designed a novel active learning algorithm combining uncertainty and diversity-based methods
-
-          2. -> Reduced time needed to train model by 21% when compared to using solely uncertainty or diversity sampling
-
-          3. -> Implemented a convolutional neural network to classify handwritten digits on the MNIST dataset
-
-          4. -> Acheived a final accuracy of 98.1% after final hyperparamter tuning
       - title: UIL CS Contest Guide – cs240.org
         url: "https://github.com/cs240/cs240.org"
         description: >-
-          1. -> Created detailed tutorials in Markdown to help users prepare for the UIL Computer Science Contest
-
-          2. -> Created an easy curriculum for users to follow by modularizing tutorials into 4 sections
-
-          3. -> Published tutorials on a webpage using a VueJS frontend and MongoDB for the backend
-
-          4. -> Deployed webpage using AWS Amplify to over 200 users
+          1. -> Created a full-stack NuxtJS web application used by over 500 active users preparing for the UIL CS Contest
+          2. -> Devoleped a robust, organized core CS curriculum by publishing detailed topic-wise tutorials in Markdown
+          3. -> Utilized Tailwind CSS to design a streamlined UI with custom components for footers, navbars, and sidebars
+          4. -> Developed a REST API backend using TypeScript and stored data using MongoDB and SHA256 hashing
       - title: Swift Mobile App – Mynance
         url: "https://github.com/kushSharma924/mynance"
         description: >-
           1. -> Developed a Swift-based mobile application to track financial transactions and improve money management
 
-          2. -> Designed UI using Interface Builder AutoLayout constraints for graceful orientation handling
+          2. -> Designed UI using Interface Builder with AutoLayout constraints for graceful orientation handling
 
           3. -> Utilized Swift’s UserDefaults Database to persistently store user’s financial data to the disk
 
           4. -> Utilized table views, segues, and MVC architecture to provide a user-friendly interface and project structure
+      - title: Active Learning Algorithm – Dynamic Sampling
+        url: "https://github.com/kushSharma924/dynamic-sampling"
+        description: >-
+          1. -> Designed a novel active learning algorithm combining uncertainty and diversity-based methods
+
+          2. -> Implemented a convolutional neural network to classify handwritten digits on the MNIST dataset
+
+          3. -> Reduced total training time by 21% when compared to using solely uncertainty or diversity sampling
+
+          4. -> Acheived a final accuracy of 98.1% after turning hyperparameters like learning rate, kernel size, and epoch count
   skill:
     title: Skills
     icon: fas fa-cogs
     list:
-      - skill: Programming Languages -> Java, C/C++, Python, Swift, JavaScript, HTML/CSS
-      - skill: Libraries & Frameworks -> ReactJS, NodeJS, VueJS, PyTorch, NumPy, Pandas, Matplotlib, STL
+      - skill: Programming Languages -> Java, C/C++, Python, Swift, JavaScript, TypeScript, HTML/CSS
+      - skill: Libraries & Frameworks -> ReactJS, NodeJS, NuxtJS, Tailwind, PyTorch, NumPy, Pandas, Matplotlib, STL
       - skill: Developer Tools -> AWS (Amplify), MongoDB, Xcode, Markdown, Git/GitHub
   hobby:
     title: Awards
