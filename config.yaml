@@ -123,7 +123,7 @@ params:
 
           3. -> Continuously deployed application to over 50 users utilizing AWS Amplify with over 1000 sitewide searches
 
-          4. -> Acheived a user satsifaction rate of 91% on accuracy of recipe results, with an average user rating of 4.6/5.0
+          4. -> Achieved a user satisfaction rate of 91% on accuracy of recipe results, with an average user rating of 4.6/5.0
       - title: UIL CS Contest Guide – cs240.org
         url: "https://github.com/cs240/cs240.org"
         description: >-
@@ -132,7 +132,7 @@ params:
           2. -> Devoleped a robust, organized core CS curriculum by publishing detailed topic-wise tutorials in Markdown
 
           3. -> Utilized Tailwind CSS to design a streamlined UI with custom components for footers, navbars, and sidebars
-          
+
           4. -> Developed a REST API backend using TypeScript and stored data using MongoDB and SHA256 hashing
       - title: Swift Mobile App – Mynance
         url: "https://github.com/kushSharma924/mynance"
