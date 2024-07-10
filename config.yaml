@@ -57,10 +57,10 @@ params:
     list:
       - degree: B.S. in Computer Science, Turing Scholars Honors
         college: The University of Texas at Austin
-        dates: August 2024 - May 2026
+        dates: Expected May 2026
       - degree: B.S. in Mathematics
         college: The University of Texas at Austin
-        dates: August 2024 - May 2026
+        dates: Expected May 2026
   experience:
     title: Experiences
     icon: fas fa-briefcase
@@ -125,7 +125,7 @@ params:
 
           4. -> Achieved a user satisfaction rate of 91% on accuracy of recipe results, with an average user rating of 4.6/5.0
       - title: UIL CS Contest Guide – cs240.org
-        url: "https://github.com/cs240/cs240.org"
+        url: "cs240.org"
         description: >-
           1. -> Created a full-stack NuxtJS web application used by over 500 active users preparing for the UIL CS Contest
 
