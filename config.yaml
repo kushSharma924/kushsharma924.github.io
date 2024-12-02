@@ -74,6 +74,12 @@ params:
           - Implemented the random and uncertainty sampling methods on the CIFAR-10 and CIFAR-100 datasets
           - Trained convolutional neural network architectures like LeNet and ResNet using stochastic gradient descent
           - Developed a Matplotlib plotting script to compare accuracy, precision, recall, computational efficiency, and speed
+      - position: Student Technician
+        dates: August 2024 - Present
+        company: The University of Texas at Austin
+        details: |1-
+          - Resolved networking-related IT tickets, ensuring 100% device connectivity across multiple campus locations
+          - Managed routers, switches, IP address allocation, subnet masks, VLAN segmentation, and DHCP protocols
   # publication:
   #   title: Publications
   #   icon: fas fa-book
@@ -151,9 +157,7 @@ params:
 
           2. -> Implemented a convolutional neural network to classify handwritten digits on the MNIST dataset
 
-          3. -> Reduced total training time by 21% when compared to using solely uncertainty or diversity sampling
-
-          4. -> Acheived a final accuracy of 98.1% after turning hyperparameters like learning rate, kernel size, and epoch count
+          3. -> Reduced total training time by 21% and achieved an accuracy of 98.1% after hyperparameter tuning
   skill:
     title: Skills
     icon: fas fa-cogs
