@@ -57,10 +57,10 @@ params:
     list:
       - degree: B.S. in Computer Science, Turing Scholars Honors
         college: The University of Texas at Austin, GPA 3.93
-        dates: Expected May 2026
+        dates: Expected May 2028
       - degree: B.S. in Mathematics
         college: The University of Texas at Austin
-        dates: Expected May 2026
+        dates: Expected May 2028
   experience:
     title: Experiences
     icon: fas fa-briefcase
