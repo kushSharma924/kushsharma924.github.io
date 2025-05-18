@@ -50,36 +50,44 @@ params:
   aboutme:
     title: About Me
     icon: fas fa-user
-    description: Hi, I'm Kush, a Turing Scholar at The University of Texas at Austin also pursuing a double major in Math. I'm interested in Theory, Machine Learning, and the intersection between Software and Finance. Outside of CS, I enjoy biking, reading, traveling, and trying out new food. Feel free to reach me at `kush.sharma@utexas.edu`.
+    description: Hi, I'm Kush. I study computer science and math at UT Austin through the Turing Scholars honors program . I'm interested in theoretical CS (specifically cryptography) and the intersection between math, software, and finance. Outside of school, I enjoy biking, reading, traveling, and playing cricket. Feel free to reach me at `kush.sharma@utexas.edu`.
   education:
     title: Education
     icon: fas fa-graduation-cap
     list:
       - degree: B.S. in Computer Science, Turing Scholars Honors
-        college: The University of Texas at Austin, GPA 3.93
-        dates: Expected May 2028
+        college: The University of Texas at Austin
+        dates: May 2027
       - degree: B.S. in Mathematics
         college: The University of Texas at Austin
-        dates: Expected May 2028
+        dates: May 2027
   experience:
     title: Experiences
     icon: fas fa-briefcase
     list:
+      - position: Software Engineering Intern
+        dates: May 2025 - August 2025
+        company: ProfitAngles
+        details: |1-
+          - Contributed to a financial advising web app focused on delivering personalized, user-centric investing insights
+          - Engineered an LLM to process natural language queries on financial data, enabling intuitive user interaction
+          - Optimized complex database queries for financial metrics, reducing query execution time by over 25%
+          - Designed a streamlined dashboard interface using ReactJS, improving information accessibility by over 40%
       - position: Machine Learning Research Intern
         dates: May 2023 - August 2023
         company: The University of Texas at Dallas
         details: |1-
-          - Worked in a team of 5 on the design and analysis of active learning algorithms for open-set annotation
-          - Performed a comprehensive literature review on active learning methods such as BADGE and HUDS
-          - Implemented the random and uncertainty sampling methods on the CIFAR-10 and CIFAR-100 datasets
-          - Trained convolutional neural network architectures like LeNet and ResNet using stochastic gradient descent
-          - Developed a Matplotlib plotting script to compare accuracy, precision, recall, computational efficiency, and speed
+          - Researched under Dr. Yunhui Guo on the design and analysis of active learning algorithms for open-set annotation
+          - Pioneered a novel active learning algorithm combining uncertainty and diversity-based methods
+          - Reduced training time by 21% compared to state of the art, achieving a robust accuracy of 98.1%
+          - Implemented LeNet and ResNet architectures; created Matplotlib script to compare precision and recall
       - position: Student Technician
         dates: August 2024 - Present
         company: The University of Texas at Austin
         details: |1-
-          - Resolved networking-related IT tickets, ensuring 100% device connectivity across multiple campus locations
-          - Managed routers, switches, IP address allocation, subnet masks, VLAN segmentation, and DHCP protocols
+          - Resolved networking-related IT tickets, ensuring 95% device connectivity across multiple campus locations
+          - Managed routers, switches, static IP address allocation, port activations, and VLAN segmentation
+
   # publication:
   #   title: Publications
   #   icon: fas fa-book
@@ -120,54 +128,39 @@ params:
     title: Projects
     icon: fas fa-project-diagram
     list:
-      - title: Meal Planner App – Flavor Finder
-        url: "https://github.com/kushsharma924/meal-planner-app"
-        description: >-
-          1. -> Developed a full-stack recipe finder web app using a REST API and displaying results in a single-page application
-
-          2. -> Designed a streamlined React frontend using navbars, drop downs, recipe cards, and other custom components
-
-          3. -> Continuously deployed application to over 50 users utilizing AWS Amplify with over 1000 sitewide searches
-
-          4. -> Achieved a user satisfaction rate of 91% on accuracy of recipe results, with an average user rating of 4.6/5.0
-      - title: UIL CS Contest Guide – cs240.org
-        url: "https://cs240.org"
+      - title: UIL CS Contest Guide – cs240
         description: >-
           1. -> Created a full-stack NuxtJS web application used by over 500 active users preparing for the UIL CS Contest
 
-          2. -> Devoleped a robust, organized core CS curriculum by publishing detailed topic-wise tutorials in Markdown
+          2. -> Utilized Tailwind CSS to design a streamlined UI with custom components for footers, navbars, and sidebars
 
-          3. -> Utilized Tailwind CSS to design a streamlined UI with custom components for footers, navbars, and sidebars
-
-          4. -> Developed a REST API backend using TypeScript and stored data using MongoDB and SHA256 hashing
-      - title: Swift Mobile App – Mynance
-        url: "https://github.com/kushSharma924/mynance"
+          3. -> Engineered a REST API backend using TypeScript and stored user login data using MongoDB
+      - title: Compiler + LLVM IR Frontend
         description: >-
-          1. -> Developed a Swift-based mobile application to track financial transactions and improve money management
+          1. -> Implemented a full compiler for a custom language supporting conditionals, iteration, and first-class functions
 
-          2. -> Designed UI using Interface Builder with AutoLayout constraints for graceful orientation handling
-
-          3. -> Utilized Swift’s UserDefaults Database to persistently store user’s financial data to the disk
-
-          4. -> Utilized table views, segues, and MVC architecture to provide a user-friendly interface and project structure
-      - title: Active Learning Algorithm – Dynamic Sampling
-        url: "https://github.com/kushSharma924/dynamic-sampling"
+          2. -> Built an LLVM IR frontend for an extended spec, adding custom data types, arrays, and user-defined structs
+      - title: Pipelined Processor
         description: >-
-          1. -> Designed a novel active learning algorithm combining uncertainty and diversity-based methods
+          1. -> Designed a 5 stage pipelined processor for a custom ISA with mov, load/store, and branch instructions
 
-          2. -> Implemented a convolutional neural network to classify handwritten digits on the MNIST dataset
-
-          3. -> Reduced total training time by 21% and achieved an accuracy of 98.1% after hyperparameter tuning
+          2. -> Implemented pipelining optimizations such as flushing, stalling, and branch prediction to deal with hazards
+      - title: Multiprocess Heap
+        description: >-
+          1. -> Designed and implemented a shared heap, enabling concurrent malloc, realloc, and free across multiple processes
+      - title: ARM Emulator
+        description: >-
+          1. -> Built a functioning emulator for a subset of ARM including load/store, cbnz, and orr instructions
   skill:
     title: Skills
     icon: fas fa-cogs
     list:
-      - skill: Programming Languages -> Java, C/C++, Python, Swift, JavaScript, TypeScript, HTML/CSS
+      - skill: Programming Languages -> Java, C, C++, Python, Swift, JavaScript, TypeScript, HTML/CSS
       - skill: Libraries & Frameworks -> ReactJS, NodeJS, NuxtJS, Tailwind, PyTorch, NumPy, Pandas, Matplotlib, STL
-      - skill: Developer Tools -> AWS (Amplify), MongoDB, Xcode, Markdown, Git/GitHub
+      - skill: Developer Tools -> AWS (Amplify), MongoDB, Xcode, Markdown, Git, GitHub
   hobby:
     title: Awards
     icon: fas fa-award
     list:
-      - hobby: Computer Science Awards -> USA Computing Olympiad Gold Division Qualifer, Texas UIL CS State Qualifier
+      - hobby: CS Awards -> USA Computing Olympiad Gold Division Qualifer (Top 10%), Texas UIL CS State Qualifier (Top 1%)
       - hobby: Other Awards -> AIME Qualifier, AMC 12A Distinction (Top 5%), National Merit Scholarship Finalist (Top 1%)
