@@ -162,5 +162,5 @@ params:
     title: Awards
     icon: fas fa-award
     list:
-      - hobby: CS Awards -> USA Computing Olympiad Gold Division Qualifer (Top 10%), Texas UIL CS State Qualifier (Top 1%)
+      - hobby: CS Awards -> USA Computing Olympiad Gold Division Qualifier (Top 10%), Texas UIL CS State Qualifier (Top 1%)
       - hobby: Other Awards -> AIME Qualifier, AMC 12A Distinction (Top 5%), National Merit Scholarship Finalist (Top 1%)
